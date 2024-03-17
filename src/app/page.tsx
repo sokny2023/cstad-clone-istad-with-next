@@ -16,7 +16,7 @@ export default function Home() {
             className=" bg-cover bg-center bg-no-repeat h-screen w-screen flex flex-col items-start justify-center text-white text-center p-5"
             style={{
               backgroundImage:
-                "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?t=st=1710683143~exp=1710686743~hmac=681cfad341747e64c363e808c5fb92616540d34facc899ef2f46a097048b3bd3&w=996')",
+                "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150061996.jpg?t=st=1710701129~exp=1710704729~hmac=d15061f166c878f6a9a672a9cd8bda4335b5995d5c63dfffb430225a4dc76ebe&w=996')",
             }}
           >
             <div className="w-[80%] mx-auto flex flex-col justify-center items-start">
