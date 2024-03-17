@@ -2,7 +2,7 @@ import Image from "next/image";
 import Slide1 from "../../public/Images/a1.jpg";
 
 import { Carousel } from "flowbite-react";
-import CardComponent from "@/componenets/CardComponent";
+import CardComponent from "@/app/CardComponent";
 import Test from "@/componenets/card/Test1";
 import NavbarComponent from "@/componenets/navbar/NavbarComponent";
 
@@ -66,7 +66,7 @@ export default function Home() {
             className=" bg-cover bg-center bg-no-repeat h-screen w-screen flex flex-col items-start justify-center text-white text-center p-5"
             style={{
               backgroundImage:
-                "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://img.freepik.com/free-vector/realistic-background-futuristic-style_23-2149129125.jpg?t=st=1710687640~exp=1710691240~hmac=c04c6811f282eff6f03313cdb18f1153777f9c71bb888cb71ac98c1247c4e2f6&w=996')",
+                "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://img.freepik.com/free-photo/standard-quality-control-collage_23-2149631012.jpg?t=st=1710698844~exp=1710702444~hmac=edd9aa01ede38dd9cdff150c8273f16bd46bde73211011b722ceffb5b5b7ece5&w=996')",
             }}
           >
             <div className="w-[80%] mx-auto flex flex-col justify-center items-start">
@@ -95,12 +95,11 @@ export default function Home() {
         </Carousel>
       </div>
 
-      <NavbarComponent></NavbarComponent>
+    <CardComponent/>
+         
+   
 
-    {/* <section className="w-10/12 mx-auto grid grid-cols-2 mt-24 gap-8">
-      <CardComponent/>
-      <CardComponent/>
-    </section> */}
+  
 
 
      

@@ -15,9 +15,9 @@ export default function NavbarComponent() {
       </Navbar.Brand>   
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Navbar.Link href="#" className="text-lg text-white">Home</Navbar.Link>
-        <Navbar.Link href="#" className="text-lg text-white">Enroll</Navbar.Link>
-        <Navbar.Link href="#" className="text-lg text-white">Course</Navbar.Link>
+        <Navbar.Link href="/" className="text-lg text-white">Home</Navbar.Link>
+        <Navbar.Link href="/enroll" className="text-lg text-white">Enroll</Navbar.Link>
+        <Navbar.Link href="/course" className="text-lg text-white">Course</Navbar.Link>
         <Navbar.Link href="#" className="text-lg text-white">IT News</Navbar.Link>
         <Navbar.Link href="#" className="text-lg text-white">Job Oppoitunity</Navbar.Link>
         <Navbar.Link href="#" className="text-lg text-white">Aout Us</Navbar.Link>
