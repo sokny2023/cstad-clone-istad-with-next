@@ -5,9 +5,9 @@ import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-
 const FooterComponent = () => {
     return (
         <Footer className="bg-primary mt-10 w-8/12 flex justify-center gap-10">
-          <section className="w-full mx-10">
-            <div className="grid mt-10 w-10/12 justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
-              <div>
+          <section className="w-full h-full mx-10 mt-2 bg-red-500">
+            <div className="grid mx-auto ml-24 mt-10 w-10/12 justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
+              <div className="ml-10 text-white">
                 <Footer.Brand
                   href="https://istad.co/resources/img/CSTAD_120.png"
                   src="https://istad.co/resources/img/CSTAD_120.png"
@@ -40,15 +40,9 @@ const FooterComponent = () => {
               </div>
             </div>
             <Footer.Divider />
-            <div className=" sm:flex sm:items-center sm:justify-between">
-              <Footer.Copyright href="#" by="Flowbite™" year={2022} />
-              <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-                <Footer.Icon href="#" icon={BsFacebook} />
-                <Footer.Icon href="#" icon={BsInstagram} />
-                <Footer.Icon href="#" icon={BsTwitter} />
-                <Footer.Icon href="#" icon={BsGithub} />
-                <Footer.Icon href="#" icon={BsDribbble} />
-              </div>
+            <div className="mx-auto mb-6">
+              <h3 className="text-2xl text-center">CSTAD</h3>
+              
             </div>
           </section>
         </Footer>

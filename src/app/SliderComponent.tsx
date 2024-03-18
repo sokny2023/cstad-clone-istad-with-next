@@ -11,7 +11,7 @@ export default function SliderComponent(){
             className=" bg-cover bg-center bg-no-repeat h-screen w-screen flex flex-col items-start justify-center text-white text-center p-5"
             style={{
               backgroundImage:
-                "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://img.freepik.com/free-vector/3d-earth-graphic-symbolizing-global-trade-illustration_456031-131.jpg?t=st=1710687549~exp=1710691149~hmac=594ba716f97105a343cb7a91dea8b773ca4e0e3eac8824470b83e5493626ceba&w=1380')",
+                "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/a1.jpg')",
             }}
           >
             <div className="w-[80%] mx-auto flex flex-col justify-center items-start">
