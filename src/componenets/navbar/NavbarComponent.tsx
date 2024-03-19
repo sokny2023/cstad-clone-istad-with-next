@@ -9,8 +9,8 @@ export default function NavbarComponent() {
   return (
   <>
     <Navbar className="bg-primary z-20 fixed top-0 w-screen flex justify-center">
-      <Navbar.Brand as={Link} href="#" className="ml-3">
-        <img src="https://istad.co/resources/img/CSTAD_120.png" className="h-10 m-4 mr-4" alt="ISTAD" />
+      <Navbar.Brand as={Link} href="#" className=" ">
+        <img src="https://istad.co/resources/img/CSTAD_120.png" className="h-10 mr-4 mr-4 " alt="ISTAD" />
         <span className=" text-white ml-4 whitespace-nowrap text-xl font-semibold dark:text-white"> C S T A D</span>
       </Navbar.Brand>   
       <Navbar.Toggle />
