@@ -1,19 +1,14 @@
 import React from "react";
 import { Footer } from 'flowbite-react';
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
 
 const FooterComponent = () => {
     return (
         <Footer className="bg-primary mt-10 w-8/12 flex justify-center gap-10">
           <section className="w-full h-full mx-10 mt-2 bg-red-500">
             <div className="grid mx-auto ml-24 mt-10 w-10/12 justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
-              <div className="ml-10 text-white">
-                <Footer.Brand
-                  href="https://istad.co/resources/img/CSTAD_120.png"
-                  src="https://istad.co/resources/img/CSTAD_120.png"
-                  alt="ISTAD"
-                  name="CSTAD"
-                />
+              <div className="ml-10 text-white flex justify-center items-center gap-4">
+                <img className="w-16" src="https://istad.co/resources/img/CSTAD_120.png" alt="" />
+                <span className="text-xl font-semibold">CSTAD</span>
               </div>
               <div className="w-1/2 flex justify-between">
                 <div>
