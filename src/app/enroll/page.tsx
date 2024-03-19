@@ -138,13 +138,13 @@ export function EnrollmentForm() {
             <div className="w-full px-3 flex gap-14">
               <button
                 type="submit"
-                className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline"
               >
-                Submit
+                Enroll Now
               </button>
               <button
                 type="submit"
-                className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline"
               >
                 Cancel
               </button>

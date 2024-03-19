@@ -8,7 +8,7 @@ export default function NavbarComponent() {
     <>
       <Navbar className="bg-primary z-20 fixed top-0 w-screen flex justify-center">
         <Navbar.Brand as={Link} href="#" className=" ">
-          <div className="ml-24 text-white flex justify-center items-center gap-4">
+          <div className=" text-white flex justify-center items-center gap-4">
             <img
               className="w-12"
               src="https://istad.co/resources/img/CSTAD_120.png"

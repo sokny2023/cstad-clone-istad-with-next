@@ -11,7 +11,7 @@ export default function SliderComponent(){
             className=" bg-cover bg-center bg-no-repeat h-screen w-screen flex flex-col items-start justify-center text-white text-center p-5"
             style={{
               backgroundImage:
-                "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/a2.jpg')",
+                "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/a7.jpg')",
             }}
           >
             <div className="w-[80%] mx-auto flex flex-col justify-center items-start">
@@ -44,7 +44,7 @@ export default function SliderComponent(){
             className=" bg-cover bg-center bg-no-repeat h-screen w-screen flex flex-col items-start justify-center text-white text-center p-5"
             style={{
               backgroundImage:
-                "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/a4.jpg')",
+                "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/a6.jpg')",
             }}
           >
             <div className="w-[80%] mx-auto flex flex-col justify-center items-start">

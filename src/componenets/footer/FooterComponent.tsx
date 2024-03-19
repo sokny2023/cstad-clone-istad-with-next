@@ -8,35 +8,45 @@ const FooterComponent = () => {
             <div className="grid mx-auto ml-24 mt-10 w-10/12 justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
               <div className="ml-10 text-white flex justify-center items-center gap-4">
                 <img className="w-16" src="https://istad.co/resources/img/CSTAD_120.png" alt="" />
-                <span className="text-xl font-semibold">CSTAD</span>
+                <span className="text-xl ">Start your IT career with C S T A D</span>
               </div>
               <div className="w-1/2 flex justify-between">
                 <div>
-                  <Footer.Title title="about" />
+                  <Footer.Title className="text-white" title="Learn more" />
                   <Footer.LinkGroup col>
-                    <Footer.Link href="#">Flowbite</Footer.Link>
-                    <Footer.Link href="#">Tailwind CSS</Footer.Link>
+                    <Footer.Link href="#" className="text-white">Coures</Footer.Link>
+                    <Footer.Link href="#" className="text-white">IT News</Footer.Link>
+                    <Footer.Link href="#" className="text-white">Job Oppornity</Footer.Link>
+                    <Footer.Link href="#" className="text-white">Privacy Policy</Footer.Link>
+                    <Footer.Link href="#" className="text-white">FAQ</Footer.Link>   
                   </Footer.LinkGroup>
                 </div>
                 <div>
-                  <Footer.Title title="Follow us" />
+                  <Footer.Title className="text-white" title="Contact us" />
                   <Footer.LinkGroup col>
-                    <Footer.Link href="#">Github</Footer.Link>
-                    <Footer.Link href="#">Discord</Footer.Link>
+                    <Footer.Link href="#" className="text-white">(+855) 95-990-910</Footer.Link>
+                    <Footer.Link href="#" className="text-white">(+855) 93-990-910</Footer.Link>
+                    <Footer.Link href="#" className="text-white">Telegram</Footer.Link>
+                    <Footer.Link href="#" className="text-white">Youtube</Footer.Link>
+                    <Footer.Link href="#" className="text-white">FaceBook</Footer.Link>   
                   </Footer.LinkGroup>
                 </div>
                 <div>
-                  <Footer.Title title="Legal" />
+                  <Footer.Title className="text-white" title="Cours" />
                   <Footer.LinkGroup col>
-                    <Footer.Link href="#">Privacy Policy</Footer.Link>
-                    <Footer.Link href="#">Terms &amp; Conditions</Footer.Link>
+                    <Footer.Link href="#" className="text-white">IT Experts</Footer.Link>
+                    <Footer.Link href="#" className="text-white">Fundadamental</Footer.Link>
+                    <Footer.Link href="#" className="text-white">Short Course</Footer.Link>
                   </Footer.LinkGroup>
                 </div>
+                {/* <div>
+                  <iframe src="https://www.facebook.com/istad.co" ></iframe>
+                </div> */}
               </div>
             </div>
             <Footer.Divider />
             <div className="mx-auto mb-6">
-              <h3 className="text-2xl text-center">CSTAD</h3>
+              <h3 className="text-xl text-white text-center">© 2024 Center of Science and Technology Advanced Development | All Rights Reserved</h3>
               
             </div>
           </section>
